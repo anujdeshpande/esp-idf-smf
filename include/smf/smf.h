@@ -37,7 +37,8 @@
 { \
 	.entry = _entry, \
 	.run   = _run,   \
-	.exit  = _exit   \
+	.exit  = _exit,  \
+	.parent = NULL   \
 }
 
 #endif /* CONFIG_SMF_ANCESTOR_SUPPORT */
