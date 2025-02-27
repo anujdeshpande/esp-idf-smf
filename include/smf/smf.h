@@ -6,7 +6,7 @@
  */
 
 /* State Machine Framework */
-
+#include <stdint.h>
 #ifdef CONFIG_SMF_ANCESTOR_SUPPORT
 /**
  * @brief Macro to create a hierarchical state.
